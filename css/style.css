@@ -93,7 +93,7 @@ header div h3{
         text-align: center;
     }
     .first{
-        height: 85vh;
+        height: 70vh;
     }
 }
 
@@ -130,6 +130,9 @@ header div h3{
         width: 100%; justify-content: center; padding: 0px; margin-top: 50px; margin-bottom: 20px; text-align: center;
     }
     .phon{padding-top: 10px; width: 100%;} .im{width: 100%;}
+    .text3{
+        margin-top: 0px;
+    }
 }
 
 .third{
@@ -179,7 +182,7 @@ button{
     border: 1px solid #ccc;
     background-color: rgb(43, 42, 42);
     width: 20%;
-    margin-left: -103px;
+    margin-left: -22%;
     color: whitesmoke;
     font-family: 'Bree Serif', serif;
     cursor: pointer;
@@ -223,7 +226,7 @@ footer{
     button{
         padding: 10px;
         width: 35%;
-        margin-left: -85px;
+        margin-left: -38%;
     }
     footer{
         margin: 30px;
