@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Bree Serif', serif;
+}
+.first{
+    background-color: brown;
+    box-sizing: border-box;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 55vh;
+    color: white;
+    position: relative;
+    z-index: 99;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+header div{
+    display: flex;
+}
+header div h3{
+    flex-direction: row;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    width: 55%;
+    margin: auto;
+    margin-top: 70px;
+}
+.right{
+    width: 40%;
+}
+.logodiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text1{
+    margin-left: 20px;
+}
+.text2{
+    margin-top: 18px;
+    text-align: justify;
+}
+.getit{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+}
+.google{
+    width: 43%;
+}
+.appstore{
+    width: 30%;
+}
+
+@media screen and (max-width: 1000px){
+    .logo{
+       width: 25%;
+    }
+    .logodiv{
+        width: 100%;
+        margin: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    header{
+        font-size: 10px;
+    }
+    header div h3{
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .cont{
+        width: 70%;
+        margin-top: 40px;
+        margin: auto;
+        justify-content: center;
+    }
+    .text2{width: 100%;}
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+    .first{
+        height: 85vh;
+    }
+}
+
+.second{
+    margin-top: -30px;
+    padding-top: 200px;
+    background-color: #ccc;
+    box-sizing: border-box;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 55%;
+    margin: auto;
+    margin-top: 70px;
+}
+.two {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    width: 55%;
+    margin: auto;
+    margin-top: 70px;
+}
+.text3{
+    width: 30%;
+    margin-top: 100px;
+}
+@media screen and (max-width: 1000px){
+    .one, .two, .text3{
+        width: 100%; justify-content: center; padding: 0px; margin-top: 50px; margin-bottom: 20px; text-align: center;
+    }
+    .phon{padding-top: 10px; width: 100%;} .im{width: 100%;}
+}
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.onze, .douze{
+    width: 35%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.stars{
+    font-size: 30px;
+    color: blue;
+}
+
+.last{
+    width: 45%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: linear-gradient(to bottom, blue, purple);
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    line-height: 20px;
+}
+.inp{
+    text-align: center;
+    margin: 25px;
+}
+input{
+    padding: 18px 15px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    width: 90%;
+    outline: none;
+}
+button{
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: rgb(43, 42, 42);
+    width: 20%;
+    margin-left: -103px;
+    color: whitesmoke;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    outline: none;
+}
+.fourth .last .text5 h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+footer{
+    margin: 100px;
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+    .onze, .douze{
+    width: 100%;
+    }
+    .text4{
+        margin-bottom: 40px;
+    }
+    .last{
+        width: 95%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .fourth .last .text5 h1{
+        font-size: 20px;
+    }
+    .text5{
+        text-align: center;
+    }
+    .inp{
+        margin: 30px 0px;
+    }
+    input{
+        padding: 13px 10px;
+        width: 80%;
+    }
+    button{
+        padding: 10px;
+        width: 35%;
+        margin-left: -85px;
+    }
+    footer{
+        margin: 30px;
+    }
+}
