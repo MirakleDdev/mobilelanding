@@ -10,7 +10,7 @@ body{
     box-sizing: border-box;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    height: 55vh;
+    height: 50vh;
     color: white;
     position: relative;
     z-index: 99;
@@ -54,6 +54,7 @@ header div h3{
 }
 .getit{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: -30px;
 }
@@ -63,6 +64,10 @@ header div h3{
 .appstore{
     width: 30%;
 }
+.im{
+    margin-top: 30px;
+}
+
 
 @media screen and (max-width: 1000px){
     .logo{
@@ -93,7 +98,13 @@ header div h3{
         text-align: center;
     }
     .first{
-        height: 70vh;
+        height: 90vh;
+    }
+    .phon{
+        width: 100%;
+    }
+    .im{
+        width: 100%;
     }
 }
 
@@ -129,10 +140,10 @@ header div h3{
     .one, .two, .text3{
         width: 100%; justify-content: center; padding: 0px; margin-top: 50px; margin-bottom: 20px; text-align: center;
     }
-    .phon{padding-top: 10px; width: 100%;} .im{width: 100%;}
     .text3{
         margin-top: 0px;
     }
+    .fone{width:100%;} .fone-img{width:100%;}
 }
 
 .third{
